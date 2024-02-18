@@ -1,6 +1,23 @@
 * {
     padding: 0;
     margin: 0;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.skip-link {
+    background-color: white;
+    position: absolute;
+    transform: translateY(-120%);
+    left: 0,5rem;
+    transition: transform 325ms ease-in;
+}
+
+.skip-link:focus{
+    transform: translateY(0);
 }
 /* Header */
 .header{
